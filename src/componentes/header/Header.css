@@ -1,5 +1,9 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header{
-    background-color: lightpink;
+    background-color: rgb(36, 36, 36);
     display: flex;
     justify-content: space-between;
     padding: 0px 10vw;
@@ -11,15 +15,17 @@ header ul{
     gap: 15px;
 }
 header ul li a{
-    font-weight: bold;
+    font-size: 17px;
     padding: 15px;
     text-decoration: none;
-    color: hotpink;
-
+    color: white;
+}header ul li a:hover{
+    color: #B33E50;
 }
 
 
 .logo{
+    margin-top: 10px;
     width: 50px;
     height: 20px;
 }

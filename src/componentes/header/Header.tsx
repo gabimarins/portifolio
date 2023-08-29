@@ -1,12 +1,12 @@
 import './Header.css'
 import Link from './../link/Link'
-import barbielogo from '..//img/Barbie_Logo.svg.png';
+import logogabi from './../img/logo.png';
 
 function Header(){
     return(
         <header>
-            <div className="fotobarbie">
-            <img className="logo" src={barbielogo} alt="Logo da Barbie"></img>
+            <div className="logogabi">
+            <img className="logo" src={logogabi} alt="Logo do Site"></img>
             </div>
             <nav>
                 <ul>
