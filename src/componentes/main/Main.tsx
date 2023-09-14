@@ -9,9 +9,8 @@ type ProjetoType = {
        id:number,
        titulo:string,
        sinopse:string,
-         link:string
-       imagem:string,
-       
+       link:string,
+       imagem:string
 }
 
 export default function Main(){
@@ -21,7 +20,7 @@ export default function Main(){
               id: 1,
               titulo:'SITE DA BARBIE',
               sinopse:"Site com todos os filmes da Barbie.",
-              link: "",
+              link: "https://1021a-barbie-gabizinha.vercel.app/",
               imagem: "/barbie.png"
        },
         {
@@ -42,7 +41,7 @@ export default function Main(){
               id: 4,
               titulo:'GAVECH',
               sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto",
-              link: "",
+              link: "https://www.figma.com/proto/LChcRMSKMsWWlqoaDfTOd3/Untitled?type=design&t=jjB9qJCGtdpmN4k9-0&scaling=min-zoom&page-id=0%3A1&node-id=0-3",
               imagem: "/gavech.png"
        }
     ]
