@@ -1,10 +1,82 @@
+import { useState } from 'react'
+
 import './Main.css'
 import Gabriela from "..//img/gabriela.jpeg"
 import Gabrielona from "..//img/gabrielona.jpeg"
+import Projeto from './../projeto/Projeto'
 
+type ProjetoType = {
+       id:number,
+       titulo:string,
+       sinopse:string,
+         link:string
+       imagem:string,
+       
+}
 
-function Main(){
+export default function Main(){
+    const [texto, setTexto]=useState("")
+    const projetos:ProjetoType[] = [
+         {
+              id: 1,
+              titulo:'SITE DA BARBIE',
+              sinopse:"Site com todos os filmes da Barbie.",
+              link: "",
+              imagem: "/barbie.png"
+       },
+        {
+              id: 2,
+              titulo:'NAVITRINE',
+              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus companheiros: Camila Morais, Ellen Pinheiro e Pedro Ribeiro",
+              link: "",
+              imagem: "/navitrine.png"
+       },
+        {
+              id: 3,
+              titulo:'LÊMAIS',
+              sinopse:"Plataforma online de direcionamento à compra e venda de livros. Dividida por categorias e filtros que facilitem a sua vida e instiguem a leitura. Em parceira com a plataforma de streaming Amazon Prime.",
+              link: "",
+              imagem: "/lemais.png"
+       },
+      {
+              id: 4,
+              titulo:'GAVECH',
+              sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto",
+              link: "",
+              imagem: "/gavech.png"
+       }
+    ]
+
+    function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
+        console.log(e.target.value)
+        setTexto(e.target.value)
+    }
+    
     return(
+    <>
+        {
+              <div className="campopesquisa"> 
+                     <div id="divBusca">
+                            <input type="text" className="botao_pesquisa" placeholder="Encontre o filme desejado..." onChange={TrataTexto}/>
+                            <button className="divBusca"><img src={lupa}></img></button>
+                    </div>
+                    {(texto)?<p>Resultados para: {texto}</p>:""}
+              </div>
+       }
+
+
+        
+        {
+              <div className="campopesquisa"> 
+                     <div id="divBusca">
+                            <input type="text" className="botao_pesquisa" placeholder="Encontre o filme desejado..." onChange={TrataTexto}/>
+                            <button className="divBusca"><img src={lupa}></img></button>
+                    </div>
+                    {(texto)?<p>Resultados para: {texto}</p>:""}
+              </div>
+       }
+    
+   
         <div className="geral">
         <div className="bloco1">
         <div className="main-content">
@@ -46,7 +118,7 @@ function Main(){
 
 
 
-
+     </>
     )
 }
 
