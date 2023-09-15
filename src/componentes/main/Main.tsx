@@ -20,29 +20,29 @@ export default function Main(){
          {
               id: 1,
               titulo:'SITE DA BARBIE',
-              sinopse:"Site com todos os filmes da Barbie.",
-              link: "https://1021a-barbie-gabizinha.vercel.app/",
+              sinopse:"Site com todos os filmes da Barbie, desenvolvido com o auxílio do professor Guilherme Terenciani. Uma curiosidade: o site da Barbie foi utilizado como base para a produção desse.",
+              link: "Acesse aqui",
               imagem: "/barbie.png"
        },
         {
               id: 2,
               titulo:'NAVITRINE',
-              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus companheiros: Camila Morais, Ellen Pinheiro e Pedro Ribeiro",
-              link: "https://1021a-barbie-gabizinha.vercel.app/",
+              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus companheiros: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
+              link: "Acesse aqui",
               imagem: "/navitrine.png"
        },
         {
               id: 3,
               titulo:'LÊMAIS',
               sinopse:"Plataforma online de direcionamento à compra e venda de livros. Dividida por categorias e filtros que facilitem a sua vida e instiguem a leitura. Em parceira com a plataforma de streaming Amazon Prime.",
-              link: "https://1021a-barbie-gabizinha.vercel.app/",
+              link: "Acesse aqui",
               imagem: "/lemais.png"
        },
       {
               id: 4,
               titulo:'GAVECH',
-              sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto",
-              link: "https://www.figma.com/proto/LChcRMSKMsWWlqoaDfTOd3/Untitled?type=design&t=jjB9qJCGtdpmN4k9-0&scaling=min-zoom&page-id=0%3A1&node-id=0-3",
+              sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto.",
+              link: "Acesse aqui",
               imagem: "/gavech.png"
        }
     ]
@@ -57,17 +57,16 @@ export default function Main(){
         {
               <div className="campopesquisa"> 
                      <div id="divBusca">
-                            <input type="text" className="botao_pesquisa" placeholder="Encontre o projeto desejado..." onChange={TrataTexto}/>
+                            <input type="text" className="botao_pesquisa" placeholder="O que deseja?" onChange={TrataTexto}/>
                             <button className="divBusca"><img src={lupa}></img></button>
                     </div>
-                    {(texto)?<p>Resultados para: {texto}</p>:""}
+                    
+      <h1 className="titulo_projeto">Meus projetos:</h1>
+      {(texto)?<p>Resultados para: {texto}</p>:""}
               </div>
        }
     
-   
-        <div className="geral">
-               
-               <div className="bloco1">
+    <div className="geral"> <div className="bloco1">
                <div className="main-content">
                    <div className="text-gabriela">
                        <div className="texto">
@@ -81,7 +80,27 @@ export default function Main(){
                        </div>
                        <img src={Gabriela} alt=""></img>
                    </div>
-            </div>
+            </div></div>
+            
+        <main className="content-main">
+                     {projetos.filter((projeto) => {
+                     const textoSemEspacos = texto.replace(/\s/g, ''); 
+                     const tituloSemEspacos = projeto.titulo.replace(/\s/g, '');
+                     const sinopseSemEspacos = projeto.sinopse.replace(/\s/g, ''); 
+                     const tudo = tituloSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
+                     const tudo2 = sinopseSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
+                     const tudo3 = tudo || tudo2; 
+                     return tudo3;
+                     })
+                     .map((projeto) => (
+                     <Projeto key={projeto.id} titulo={projeto.titulo} sinopse={projeto.sinopse}  link={projeto.link} imagem={projeto.imagem} />
+                     ))}
+        </main>
+
+        
+        <div className="geral">
+               
+              
 
             <div className="bloco2">
                <div className="main-content2">
@@ -103,20 +122,6 @@ export default function Main(){
                </div>
         </div>
 
-        <main className="content-main">
-                     {projetos.filter((projeto) => {
-                     const textoSemEspacos = texto.replace(/\s/g, ''); 
-                     const tituloSemEspacos = projeto.titulo.replace(/\s/g, '');
-                     const sinopseSemEspacos = projeto.sinopse.replace(/\s/g, ''); 
-                     const tudo = tituloSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
-                     const tudo2 = sinopseSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
-                     const tudo3 = tudo || tudo2; 
-                     return tudo3;
-                     })
-                     .map((projeto) => (
-                     <Projeto key={projeto.id} titulo={projeto.titulo} sinopse={projeto.sinopse} imagem={projeto.imagem} />
-                     ))}
-        </main>
 
      </>
     )

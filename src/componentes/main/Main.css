@@ -1,4 +1,110 @@
+.content-main{
+    display: flex;
+    padding: 0px 100px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
 
+/*
+.areapesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.campo_pesquisa{
+    margin-top: 30px;
+    display: flex;
+}
+
+.botao_pesquisa{
+    width: 300px;
+    border: 0.5px gray solid;
+}
+
+.campo_pesquisa input .botao_pesquisa{
+    box-shadow: 0 0 0 0;
+    border: 0.5px rgb(177, 177, 177) solid;
+    border-radius: 5px 0px 0px 5px;
+    width: 500px;
+   height: 30px;
+    outline: 0;
+    font-size: 14px;
+    text-indent: 8px;
+}
+
+.campo_pesquisa input .arealupa{
+    display: flex;
+    background-color: #e0218a;
+    height: 33px;
+    width: 36px;
+    border-radius: 5px 5px 5px 0px;
+    border: 0;
+    background-image: url(https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936659_.png);
+}
+.lupa{
+    width: 28px;
+    height: 25px;
+    background-position: 2px -280px;
+}*/
+#txtBusca, .botao_pesquisa{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:17px;
+    border:none;
+    height:32px;
+    width:450px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+  }
+  
+  button{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    height:33.5px;
+  }button:hover{
+    cursor: pointer;
+  }
+  
+  #btnBusca{
+    float:left;
+    
+    background-color: rgb(36, 36, 36) ;
+    cursor:pointer;
+    
+    border-radius: 0px 5px 5px 0px;
+    
+  }
+
+  .botao_pesquisa:focus, input:focus {
+    box-shadow: 0.5px 1px 11px 0px rgb(219, 219, 219);
+}
+  #divBusca img{
+    width: 200px;
+    
+    float:left;
+    width: 20px;
+    height: 20px;
+    
+  }
+  
+  .campopesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+  }
+.campopesquisa p{
+  margin-top: 40px;
+}
+  #divBusca{
+    width:auto;
+    border-radius: 5px;
+    border: solid 1px rgb(36, 36, 36);
+  }
+
+  
 
 
 .main-content, .main-content2{

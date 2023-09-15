@@ -3,13 +3,16 @@ import './Projeto.css'
 type ProjetoProps = {
     titulo: string,
     sinopse:string,
+    link: string,
     imagem:string
 
 }
 
 function Projeto(props:ProjetoProps){
     return(
-        <div className="filme-content">
+        <>
+        <div className="projeto-content">
+            
             {/* o comentario aqui é desse jeito, dentro das
             chaves vc pode usar js, por isso da pra importar
             o "imagem" dentro do componente IMG */}
@@ -20,10 +23,13 @@ function Projeto(props:ProjetoProps){
             <div className="text-projeto">
                 <h1>{props.titulo}</h1>
                 <p className="sinopse">{props.sinopse}</p>
+                <a className="link">{props.link}</a>
             </div>
 
         </div>
+        </>
     )
+    
 }
 
 export default Projeto
