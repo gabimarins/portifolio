@@ -1,13 +1,10 @@
 import { useState } from 'react'
 
-import Projeto from './../projeto/Projeto'
-
-
-import lupa from '../img/lupa.png';
-
 import './Main.css'
 import Gabriela from "..//img/gabriela.jpeg"
 import Gabrielona from "..//img/gabrielona.jpeg"
+import Projeto from './../projeto/Projeto'
+import lupa from '../img/lupa.png';
 
 type ProjetoType = {
        id:number,
@@ -31,14 +28,14 @@ export default function Main(){
               id: 2,
               titulo:'NAVITRINE',
               sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus companheiros: Camila Morais, Ellen Pinheiro e Pedro Ribeiro",
-              link: "",
+              link: "https://1021a-barbie-gabizinha.vercel.app/",
               imagem: "/navitrine.png"
        },
         {
               id: 3,
               titulo:'LÊMAIS',
               sinopse:"Plataforma online de direcionamento à compra e venda de livros. Dividida por categorias e filtros que facilitem a sua vida e instiguem a leitura. Em parceira com a plataforma de streaming Amazon Prime.",
-              link: "",
+              link: "https://1021a-barbie-gabizinha.vercel.app/",
               imagem: "/lemais.png"
        },
       {
