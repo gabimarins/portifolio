@@ -38,6 +38,10 @@
     color: black;
     cursor: pointer;
 }
+.link{
+    position: fixed;
+    margin-bottom: 10px;
+}
 .sinopse{
     text-align: justify;
 }
