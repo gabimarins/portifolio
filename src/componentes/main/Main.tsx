@@ -38,8 +38,15 @@ export default function Main(){
               link: "Acesse aqui",
               imagem: "/lemais.png"
        },
+       {
+              id: 5,
+              titulo:'CALENGA',
+              sinopse:"Plataforma para empreendimento online. Pessoas com conhecimentos em diversos assuntos podem publicar seus tutoriais, para que outras possam aprender e começar a fazer a sua própria renda. Conteúdos disponibilizados de moda, estética, artesanato, edição, programção e muito mais.",
+              link: "Acesse aqui",
+              imagem: "/calenga.png"
+       },
       {
-              id: 4,
+              id: 5,
               titulo:'GAVECH',
               sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto.",
               link: "Acesse aqui",
