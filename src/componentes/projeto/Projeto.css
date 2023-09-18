@@ -39,8 +39,7 @@
     cursor: pointer;
 }
 .link{
-    position: fixed; 
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .sinopse{
     text-align: justify;
