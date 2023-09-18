@@ -39,7 +39,9 @@
     cursor: pointer;
 }
 .link{
+    overflow: hidden;
     position: fixed;
+    padding: 5px 30px;
     margin-bottom: 10px;
 }
 .sinopse{
