@@ -27,7 +27,7 @@ export default function Main(){
         {
               id: 2,
               titulo:'NAVITRINE',
-              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus companheiros: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
+              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus colegas de turma: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
               link: "Acesse aqui",
               imagem: "/navitrine.png"
        },
@@ -48,7 +48,7 @@ export default function Main(){
       {
               id: 5,
               titulo:'GAVECH',
-              sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: André Lacerda, Camila Morais, Ellen Pinheiro, Henrique Gavazzoni, Vitor Michelotto.",
+              sinopse:"Loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: Camila Morais, Ellen Pinheiro e Vitor Michelotto.",
               link: "Acesse aqui",
               imagem: "/gavech.png"
        }
