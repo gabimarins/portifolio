@@ -16,7 +16,7 @@
 .foto_projeto>img{
     height: auto;
     width: 100%;
-    max-height: 1000px;
+    max-height: 450px;
     overflow: hidden;
     box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.03);
 }
@@ -37,9 +37,6 @@
 .text-projeto a:hover{
     color: black;
     cursor: pointer;
-}
-.link{
-    margin-top: 50px;
 }
 .sinopse{
     text-align: justify;
