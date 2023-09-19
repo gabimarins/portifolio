@@ -90,37 +90,31 @@ export default function Main(){
     return(
     <>
 
-<div className="geral"> 
-       
-<div className="bloco1">
-               <div className="main-content">
-                   <div className="text-gabriela">
-                       <div className="texto">
-                       <h1>Olá! Muito prazer, eu sou a Gabriela.</h1>
-                       <p className="sinopse">Me chamo Gabriela Marins dos Santos. Atualmente, sou estudante do 3º ano do Técnico em Informática
-                       para Internet do IFMS Campus Naviraí. Ao longo da minha trajetória acadêmica, desenvolvi diversos projetos que incluem interface gráfica,
-                       programação e escrita científica. Adoro essa área e penso em levar adiante na minha vida. Nesse site, você poderá ter acesso ao meu portifólio,
-                       que conta com os principais conteúdos produzidos por mim até aqui. Espero que gostem. Abraços!
-                       <br></br><br></br>Continue aqui para saber mais!</p>
-                       </div>
-                       {<div className="campopesquisa"> 
-                     <div id="divBusca">
-                            <input type="text" className="botao_pesquisa" placeholder="O que deseja encontrar?" onChange={TrataTexto}/>
-                            <button className="divBusca"><img src={lupa}></img></button>
-                    </div>
-              </div>}
-                     
-                   </div>
-                   <img src={Gabriela} alt=""></img>
-            </div></div></div>
+       <div className="geral"> <div className="bloco1"> <div className="main-content">
+                          <div className="text-gabriela">
+                              <div className="texto">
+                                     <h1>Olá! Muito prazer, eu sou a Gabriela.</h1>
+                                     <p className="sinopse">Me chamo Gabriela Marins dos Santos. Atualmente, sou estudante do 3º ano do Técnico em Informática
+                                     para Internet do IFMS Campus Naviraí. Ao longo da minha trajetória acadêmica, desenvolvi diversos projetos que incluem interface gráfica,
+                                     programação e escrita científica. Adoro essa área e penso em levar adiante na minha vida. Nesse site, você poderá ter acesso ao meu portifólio,
+                                     que conta com os principais conteúdos produzidos por mim até aqui. Espero que gostem. Abraços!
+                                     <br></br><br></br>Continue aqui para saber mais!</p>
+                              </div>
+                              {<div className="campopesquisa"> <div id="divBusca">
+                                          <input type="text" className="botao_pesquisa" placeholder="O que deseja encontrar?" onChange={TrataTexto}/>
+                                          <button className="divBusca"><img src={lupa}></img></button>
+                               </div> </div>}
+                          </div>
+                          <img src={Gabriela} alt=""></img>
+        </div></div></div>
 
         <div className='resultados'>
-        <h1 className="titulo_projeto">Projetos realizados por mim:</h1>
-            {(texto)?<p>Resultados para: {texto}</p>:""}
+               <h1 className="titulo_projeto">Projetos realizados por mim:</h1>
+               {(texto)?<p>Resultados para: {texto}</p>:""}
         </div>
            
-<main className="content-main">
-                     {projetos.filter((projeto) => {
+       <main className="content-main">
+              {projetos.filter((projeto) => {
                      const textoSemEspacos = texto.replace(/\s/g, ''); 
                      const tituloSemEspacos = projeto.titulo.replace(/\s/g, '');
                      const sinopseSemEspacos = projeto.sinopse.replace(/\s/g, ''); 
@@ -128,10 +122,10 @@ export default function Main(){
                      const tudo2 = sinopseSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
                      const tudo3 = tudo || tudo2; 
                      return tudo3;
-                     })
-                     .map((projeto) => (
-                     <Projeto key={projeto.id=1} titulo={projeto.titulo} sinopse={projeto.sinopse}  link={projeto.link} imagem={projeto.imagem} />
-                     ))}
+              })
+              .map((projeto) => (
+                     <Projeto key={projeto.id} titulo={projeto.titulo} sinopse={projeto.sinopse}  link={projeto.link} imagem={projeto.imagem} />
+              ))}
         </main>
     
      
