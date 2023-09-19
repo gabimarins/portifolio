@@ -67,9 +67,9 @@ export default function Main(){
               imagem: "/soja.png"
        },
        {
-              id: 7,
-              titulo:'Previsão de Produtividade de Soja no MS por Aprendizagem de Máquina',
-              sinopse:"Artigo científico traduzido para o inglês publicado na revista Springer. Utilizado como TCC. Premiado na FETECMS 2022 (2º) em Ciências Agrárias. Orientador: Guilherme Botega Torsoni. Coorientador: Lucas Aparecido.",
+              id: 8,
+              titulo:'Caracterização do clima do MS com dados do CMIP6.',
+              sinopse:"Artigo científico em andamento. Orientador: Guilherme Botega Torsoni. Coorientador: Lucas Aparecido.",
               link: "Acesse aqui",
               imagem: "/soja.png"
        }
