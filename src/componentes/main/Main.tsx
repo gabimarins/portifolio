@@ -100,7 +100,7 @@ export default function Main(){
                                      que conta com os principais conteúdos produzidos por mim até aqui. Espero que gostem. Abraços!
                                      <br></br><br></br>Continue aqui para saber mais!</p>
                               </div>
-                              {<div className="campopesquisa"> <div id="divBusca">
+                              {<div className="campopesquisa"> <div className="divBusca">
                                           <input type="text" className="botao_pesquisa" placeholder="O que deseja encontrar?" onChange={TrataTexto}/>
                                           <button className="divBusca"><img src={lupa}></img></button>
                                </div> </div>}
