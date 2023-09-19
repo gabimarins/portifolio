@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './Main.css'
 import Gabriela from "..//img/gabriela.jpeg"
-import Gabrielona from "..//img/gabrielona.jpeg"
+//import Gabrielona from "..//img/gabrielona.jpeg"
 import Projeto from './../projeto/Projeto'
 import lupa from '../img/lupa.png';
 
