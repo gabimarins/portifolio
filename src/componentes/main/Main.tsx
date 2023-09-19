@@ -27,21 +27,21 @@ export default function Main(){
         {
               id: 2,
               titulo:'NAVITRINE',
-              sinopse:"Plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus colegas de turma: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
+              sinopse:"Protótipo de plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus colegas de turma: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
               link: "Acesse aqui",
               imagem: "/navitrine.png"
        },
         {
               id: 3,
               titulo:'LÊMAIS',
-              sinopse:"Plataforma online de direcionamento à compra e venda de livros. Dividida por categorias e filtros que facilitem a sua vida e instiguem a leitura. Em parceira com a plataforma de streaming Amazon Prime.",
+              sinopse:"Design de pataforma online de direcionamento à resenha, compra e venda de livros. Dividida por categorias e filtros que facilitem a sua vida e instiguem a leitura. Em parceira com a plataforma de streaming Amazon Prime.",
               link: "Acesse aqui",
               imagem: "/lemais.png"
        },
        {
               id: 4,
               titulo:'CALENGA',
-              sinopse:"Plataforma onde pessoas com conhecimentos em diversos assuntos podem publicar seus tutoriais, para que outras possam aprender e começar a fazer a sua própria renda. Conteúdos disponibilizados de moda, estética, artesanato, edição e muito mais.",
+              sinopse:"Design de plataforma onde pessoas com conhecimentos em diversos assuntos podem publicar seus tutoriais, para que outras possam aprender e começar a fazer a sua própria renda. Conteúdos disponibilizados de moda, estética, artesanato, edição e muito mais.",
               link: "Acesse aqui",
               imagem: "/calenga.png"
        },
@@ -55,7 +55,7 @@ export default function Main(){
        {
               id: 6,
               titulo:'Aroma de Café',
-              sinopse:"Plataforma para exposição, compra e venda de produtos da padaria Aroma de Café.",
+              sinopse:"Design de plataforma para exposição, compra e venda de produtos da padaria Aroma de Café.",
               link: "Acesse aqui",
               imagem: "/cafe.png"
        },
@@ -68,10 +68,17 @@ export default function Main(){
        },
        {
               id: 8,
-              titulo:'Caracterização do clima do MS com dados do CMIP6.',
+              titulo:'Caracterização do clima do MS usando dados de mudanças climáticas do CMIP6.',
               sinopse:"Artigo científico em andamento. Orientador: Guilherme Botega Torsoni. Coorientador: Lucas Aparecido.",
               link: "Acesse aqui",
-              imagem: "/soja.png"
+              imagem: "/clima.png"
+       },
+       {
+              id: 9,
+              titulo:'PODCAST POD ISSO NO IF.',
+              sinopse:"Podcast do IFMS-Campus Naviraí. Atuo produzindo artes e conteúdos para o Instagram e para os episódios publicados no Youtube e como host para as entrevistas.",
+              link: "Acesse aqui",
+              imagem: "/podcast.png"
        }
     ]
 
