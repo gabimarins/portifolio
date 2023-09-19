@@ -130,7 +130,7 @@ export default function Main(){
                      return tudo3;
                      })
                      .map((projeto) => (
-                     <Projeto key={projeto.id} titulo={projeto.titulo} sinopse={projeto.sinopse}  link={projeto.link} imagem={projeto.imagem} />
+                     <Projeto key={projeto.id=1} titulo={projeto.titulo} sinopse={projeto.sinopse}  link={projeto.link} imagem={projeto.imagem} />
                      ))}
         </main>
     
