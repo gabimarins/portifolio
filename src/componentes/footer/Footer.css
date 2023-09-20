@@ -16,20 +16,23 @@ footer{
     background-color: rgb(36, 36, 36);
     margin-top: 100px;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 2.5rem;
+    justify-content: space-around;
+    padding: 30px 10vw;
+    box-sizing: border-box;
 }
 
 .sessao1{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
+
 
 .bloco{
     color: color;
     display: flex;
     flex-direction: column;
+    width: auto;
 }
 .bloco a:hover, .blocofinal a:hover{
     color: #c9354b;
@@ -37,11 +40,11 @@ footer{
 
 .bloco:not(:last-child){
     
-    margin-right: 70px;
+    margin-right: 90px;
 }
 
 .blocoinicial{
-    margin-right: 100px;
+    margin-right: 200px;
 }
 a{
     color: white;
@@ -54,7 +57,7 @@ a{
 }
 footer img{
     width: 35px;
-    height: 30px;
+    height: 35px;
 }
 
 footer img:not(:last-child){
@@ -100,8 +103,8 @@ h1{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    width: 2100px;
-    justify-content: space-around;
+    width: 2000px;
+    justify-content: space-between;
     
     text-align: center;
     align-items: center;

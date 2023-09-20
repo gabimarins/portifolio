@@ -1,11 +1,7 @@
-
-
-//ATIVIDADE 1
 use("db_patissier")
-
-
-//ATIVIDADE 2
 db.createCollection("Cake");
+
+
 db.Cake.insertMany([
     {
     _id: ObjectId(1),
@@ -46,41 +42,41 @@ db.Cake.insertMany([
         }
     ]},
     {
-    _id: ObjectId(3),
-    nome: "Bolo de laranja",
-    peso: "500g",
-    preco: 35,
-    ingredientes:  [
+    "_id": ObjectId(3),
+    "nome": "Bolo de laranja",
+    "peso": "500g",
+    "preco": 35,
+    "ingredientes":  [
         {
-            nome: "Trigo",
-            quantidade: "2 xícaras"
+            "nome": "Trigo",
+            "quantidade": "2 xícaras"
         },
         {
-            nome: "Laranja",
-            quantidade: "2 unidades"
+            "nome": "Laranja",
+            "quantidade": "2 unidades"
         },
         {
-            nome: "Óleo",
-            quantidade: "1 xícara"
+            "nome": "Óleo",
+            "quantidade": "1 xícara"
         }
     ]},
     {
-    _id: ObjectId(4),
-    nome: "Bolo dois amores",
-    peso: "3kg",
-    preco: 150,
-    ingredientes:  [
+    "_id": ObjectId(4),
+    "nome": "Bolo dois amores",
+    "peso": "3kg",
+    "preco": 150,
+    "ingredientes":  [
         {
-            nome: "Trigo",
-            quantidade: "6 xícaras"
+            "nome": "Trigo",
+            "quantidade": "6 xícaras"
         },
         {
-            nome: "Chocolate",
-            quantidade: "2 xícaras"
+            "nome": "Chocolate",
+            "quantidade": "2 xícaras"
         },
         {
-            nome: "Ovos",
-            quantidade: "6 unidades"
+            "nome": "Ovos",
+            "quantidade": "6 unidades"
         }
     ]}
 ]

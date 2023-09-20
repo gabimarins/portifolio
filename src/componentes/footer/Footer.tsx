@@ -1,10 +1,9 @@
 import './Footer.css';
 import logogabi from '..//img/logo.png';
-import discord from '..//img/discord.png';
 import instagram from '..//img/Instagram_icon.png.webp';
-import twitter from '..//img/twitter.png';
 import facebook from '..//img/facebook.png';
-import youtube from '..//img/youtube.png';
+import linkedin from '..//img/linkedin.webp';
+import email from '..//img/email.webp';
 
 export function Footer(){
     return(
@@ -14,23 +13,22 @@ export function Footer(){
 <div className="sessao1">
             <div className="blocoinicial">
                 <img className="logo" src={logogabi} alt="Logo da Barbie"></img>
-                <div className="divtexto"><p>Descubra mais sobre a Gabriela, seus gostos, seu cotidiano, seus hobbies, viagens e sonhos!</p></div>
+                <div className="divtexto"><p>Descubra mais sobre mim, meus projetos, vida acadêmica e sonhos!</p></div>
                 <div className="redessociais">
-                    <img src={discord} alt="discord"/>
                     <img src={instagram} alt="instagram"/>
-                    <img src={twitter} alt="twitter"/>
                     <img src={facebook} alt="facebook"/>
-                    <img src={youtube} alt="youtube"/>
+                    <img src={linkedin} alt="linkedin"/>
+                    <img src={email} alt="email"/>
                 </div>
             </div>
 
-            <div className="bloco2 bloco">
-                <h1>Possíveis faculdades</h1>
-                <a href="#">Design</a>
-                <a href="#">Arquitetura e Urbanismo</a>
-                <a href="#">Ciência da Computação</a>
-                <a href="#">Psicologia</a>
-                <a href="#">Comunicação e Marketing</a>
+            <div className="bloco">
+                <h1>Projetos</h1>
+                <a href="#">Projetos do Figma</a>
+                <a href="#">Projetos do VS Code</a>
+                <a href="#">Iniciação Científica</a>
+                <a href="#">Projetos de extensão</a>
+                <a href="#">Atividades escolares</a>
             </div>
 
             <div className="bloco3 bloco">
@@ -42,14 +40,7 @@ export function Footer(){
                 <a href="#">Minas Gerais</a>
             </div>
 
-            <div className="bloco4 bloco">
-                <h1>Objetivos profissionais</h1>
-                <a href="#">Faculdade renomeada</a>
-                <a href="#">Sucesso</a>
-                <a href="#">Emprego dos sonhos</a>
-            </div>
-
-            <div className="bloco5 bloco">
+            <div className=" bloco">
                 <h1>Comunidade</h1>
                 <a href="#">Entrar em contato</a>
                 <a href="#">Cookies e Tecnologia</a>
