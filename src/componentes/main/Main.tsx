@@ -86,6 +86,13 @@ export default function Main(){
               sinopse:"Jogo da memória em MDF desenvolvido para a matéria de Biologia 4, envolvendo os problemas e maneiras de solucionar a poluição atmosférica. Desenvolvido com: Camila Morais, Ellen Pinheiro e Henrique Gavazzoni.",
               link: "Acesse aqui",
               imagem: "/poluicao.png"
+       },
+       {
+              id: 11,
+              titulo:'Jogo da Memória Ecoconsciente',
+              sinopse:"Jogo da memória em MDF desenvolvido para a matéria de Biologia 4, envolvendo os problemas e maneiras de solucionar a poluição atmosférica. Desenvolvido com: Camila Morais, Ellen Pinheiro e Henrique Gavazzoni.",
+              link: "Acesse aqui",
+              imagem: "/poluicao.png"
        }
     ]
 
