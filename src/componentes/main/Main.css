@@ -2,6 +2,18 @@
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+=======
+
+.content-main{
+    display: flex;
+    padding: 0px 100px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+>>>>>>> 47dda6c97bdb231eb732fb3a81ee5377edda7087
 
 .content-main{
   display: flex;
@@ -55,15 +67,79 @@ min-height: 50px;
     color: #B33E50;
     font-size: 23px;
 }
+<<<<<<< HEAD
 
 .bloco1 p, .bloco2 p{
   text-align: justify;
   width: 600px;
 }
 .bloco1, .bloco2{
+=======
+.texto2{
+    margin-left: 120px;
+}
+.bloco1 p{
+  text-align: justify;
+  width: 600px;
+}
+.bloco1{
+>>>>>>> 47dda6c97bdb231eb732fb3a81ee5377edda7087
   display: flex;
   justify-content: center;
   font-size: 18px;
+}
+#txtBusca, .botao_pesquisa{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:17px;
+    border:none;
+    height:32px;
+    width:450px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+  
+button{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    height:34px;
+}button:hover{
+    cursor: pointer;
+}
+  
+#btnBusca{
+    float:left;
+    background-color: rgb(36, 36, 36) ;
+    cursor:pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.botao_pesquisa:focus, input:focus {
+    box-shadow: 0.5px 1px 11px 0px rgb(219, 219, 219);
+}
+
+
+.campopesquisa{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+  border: solid 1px black;
+}
+.campopesquisa p{
+  margin-top: 40px;
+}
+
+.divBusca{
+    width:auto;
+    border-radius: 5px;
+    border: solid 1px rgb(36, 36, 36);
+}
+.divBusca img{
+    width: 200px;
+    float:left;
+    width: 20px;
+    height: 20px;  
 }
 
 /* configuração para o input */
@@ -130,6 +206,15 @@ button{
   align-items: center;
 }
 
+<<<<<<< HEAD
 .sinopse{
   font-size: 16px;
+=======
+.titulo_projeto{
+    margin-top: 20px;
+}
+
+.h1{
+  min-height: 50px;
+>>>>>>> 47dda6c97bdb231eb732fb3a81ee5377edda7087
 }
