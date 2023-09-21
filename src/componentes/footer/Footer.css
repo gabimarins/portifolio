@@ -58,6 +58,8 @@ a{
 footer img{
     width: 35px;
     height: 35px;
+}footer img:hover{
+    cursor: pointer;
 }
 
 footer img:not(:last-child){
