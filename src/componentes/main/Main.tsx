@@ -27,7 +27,7 @@ export default function Main(){
         {
               id: 2,
               titulo:'NAVITRINE',
-              sinopse:"Protótipo de plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em colaboração com meus colegas de turma: Camila Morais, Ellen Pinheiro e Pedro Ribeiro.",
+              sinopse:"Protótipo de plataforma online de exposição de produtos das lojas do comércio de moda e vestuário de Naviraí. Projeto desenvolvido em grupo.",
               link: "Acesse aqui",
               imagem: "/navitrine.png"
        },
@@ -48,7 +48,7 @@ export default function Main(){
       {
               id: 5,
               titulo:'GAVECH',
-              sinopse:"Plataforma de loja online de moda de grife. Projeto desenvolvido em parceria com os alunos: Camila Morais, Ellen Pinheiro e Vitor Michelotto.",
+              sinopse:"Plataforma de loja online de moda de grife. Projeto desenvolvido em grupo.",
               link: "Acesse aqui",
               imagem: "/gavech.png"
        },
@@ -83,7 +83,7 @@ export default function Main(){
        {
               id: 10,
               titulo:'Jogo da Memória Ecoconsciente',
-              sinopse:"Jogo da memória em MDF desenvolvido para a matéria de Biologia 4, envolvendo os problemas e maneiras de solucionar a poluição atmosférica. Desenvolvido com: Camila Morais, Ellen Pinheiro e Henrique Gavazzoni.",
+              sinopse:"Jogo da memória em MDF desenvolvido para a matéria de Biologia 4, envolvendo os problemas e maneiras de solucionar a poluição atmosférica. Desenvolvido em grupo.",
               link: "Acesse aqui",
               imagem: "/poluicao.png"
        }
