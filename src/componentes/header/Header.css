@@ -1,6 +1,7 @@
 
 header{
-    background-color: rgb(36, 36, 36);
+    /* background-color: rgb(36, 36, 36); */
+    background-color: #26292e;
     display: flex;
     justify-content: space-between;
     padding: 0px 10vw;
@@ -17,11 +18,13 @@ header ul li a{
     text-decoration: none;
     color: white;
 }header ul li a:hover{
-    color: #B33E50;
+    /* color: #B33E50; */
+    
+    color: #F95364;
 }
 
-
-.logo{
+.logo {
     width: 150px;
-    height: 150px;
+    height: 45px;
+    padding: 15px 0px;
 }

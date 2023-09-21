@@ -29,7 +29,6 @@ min-height: 50px;
     justify-content: space-around;
     min-height: 450px;
     padding: 10px;
-    border-radius: 10px;
     box-shadow: 0.5px 1px 11px 0px rgb(219, 219, 219);
 }
 
@@ -44,7 +43,7 @@ min-height: 50px;
 
 .text-gabriela, .text-gabriela2{
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: #26292e;
     line-height: 25px;
     align-items: center;
 }
@@ -52,13 +51,13 @@ min-height: 50px;
     margin-right: 200px;
 }
 .text-gabriela h1, .text-gabriela2 h1{
-    color: #B33E50;
+    color: #fe3247;
     font-size: 23px;
 }
 
 .bloco1 p, .bloco2 p{
   text-align: justify;
-  width: 600px;
+  width: 700px;
 }
 .bloco1, .bloco2{
   display: flex;
@@ -79,7 +78,7 @@ min-height: 50px;
   
 button{
     border: none;
-    background-color: rgb(36, 36, 36);
+    background-color: #26292e;
     height:34px;
 }button:hover{
     cursor: pointer;
@@ -87,7 +86,7 @@ button{
   
 #btnBusca{
     float:left;
-    background-color: rgb(36, 36, 36) ;
+    background-color: #26292e;
     cursor:pointer;
     border-radius: 0px 5px 5px 0px;
 }
@@ -101,16 +100,16 @@ button{
     display: flex;
     align-items: center;
     margin: 40px 0px 0px 0px;
-  border: solid 1px black;
 }
 .campopesquisa p{
   margin-top: 40px;
 }
 
 .divBusca{
+  border-radius: 5px;
     width:auto;
     border-radius: 5px;
-    border: solid 1px rgb(36, 36, 36);
+    border: solid 1px #26292e;
 }
 .divBusca img{
     width: 200px;
@@ -137,7 +136,7 @@ input:focus{
   
 button{
     border: none;
-    background-color: rgb(36, 36, 36);
+    background-color: #26292e;
     height:34px;
 }button:hover{
     cursor: pointer;
@@ -145,7 +144,7 @@ button{
   
 #btnBusca{
     float:left;
-    background-color: rgb(36, 36, 36) ;
+    background-color: #26292e ;
     cursor:pointer;
     border-radius: 0px 5px 5px 0px;
 }
@@ -167,7 +166,7 @@ button{
 
 .divBusca{
     width:auto;
-    border: solid 1px rgb(36, 36, 36);
+    border: solid 1px #26292e;
 }
 .divBusca img{
     width: 200px;

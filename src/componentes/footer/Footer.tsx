@@ -1,9 +1,9 @@
 import './Footer.css';
 import logogabi from '..//img/logo.png';
-import instagram from '..//img/Instagram_icon.png.webp';
-import facebook from '..//img/facebook.png';
-import linkedin from '..//img/linkedin.webp';
-import email from '..//img/email.webp';
+import instagram from '..//img/instagram.png';
+
+import linkedin from '..//img/linkedin.png';
+import email from '..//img/email.png';
 
 export function Footer(){
     return(
@@ -16,7 +16,6 @@ export function Footer(){
                 <div className="divtexto"><p>Descubra mais sobre mim, meus projetos, vida acadêmica e sonhos!</p></div>
                 <div className="redessociais">
                     <img src={instagram} alt="instagram"/>
-                    <img src={facebook} alt="facebook"/>
                     <img src={linkedin} alt="linkedin"/>
                     <img src={email} alt="email"/>
                 </div>
@@ -32,12 +31,10 @@ export function Footer(){
             </div>
 
             <div className="bloco3 bloco">
-                <h1>Minhas viagens</h1>
-                <a href="#">Fortaleza</a>
-                <a href="#">Itapema</a>
-                <a href="#">Florianópolis</a>
-                <a href="#">Bahia</a>
-                <a href="#">Minas Gerais</a>
+                <h1>Eventos Instituicionais</h1>
+                <a href="#">FECINAVI 2022</a>
+                <a href="#">FETECMS 2022</a>
+                <a href="#">Em breve: FETECMS 2023</a>
             </div>
 
             <div className=" bloco">
