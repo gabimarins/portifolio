@@ -3,6 +3,7 @@ import logogabi from '..//img/logo.png';
 import instagram from '..//img/instagram.png';
 
 import linkedin from '..//img/linkedin.png';
+import lattes from '..//img/lattes.png';
 import email from '..//img/email.png';
 
 export function Footer(){
@@ -18,6 +19,7 @@ export function Footer(){
                     <img src={instagram} alt="instagram"/>
                     <img src={linkedin} alt="linkedin"/>
                     <img src={email} alt="email"/>
+                    <img src={lattes} alt="lattes"/>
                 </div>
             </div>
 
@@ -40,6 +42,7 @@ export function Footer(){
             <div className=" bloco">
                 <h1>Comunidade</h1>
                 <a href="#">Entrar em contato</a>
+                <a href="#">Currículo Lattes</a>
                 <a href="#">Cookies e Tecnologia</a>
                 <a href="#">Declaração de Acessibilidade</a>
                 <a href="#">Cookie Preferences</a>
