@@ -35,7 +35,9 @@ export function Footer(){
             <div className="bloco3 bloco">
                 <h1>Eventos Instituicionais</h1>
                 <a href="#">FECINAVI 2022</a>
+                <a href="#">CONVIBRA 2022</a>
                 <a href="#">FETECMS 2022</a>
+                <a href="#">CONVIBRA 2023</a>
                 <a href="#">Em breve: FETECMS 2023</a>
             </div>
 
