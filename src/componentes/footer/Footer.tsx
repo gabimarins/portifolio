@@ -1,7 +1,6 @@
 import './Footer.css';
 import logogabi from '..//img/logo.png';
 import instagram from '..//img/instagram.png';
-
 import linkedin from '..//img/linkedin.png';
 import lattes from '..//img/lattes.png';
 import email from '..//img/email.png';

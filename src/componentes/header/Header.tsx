@@ -1,5 +1,5 @@
 import './Header.css'
-import Link from './../link/Link'
+import LinkNav from '../linknav/LinkNav'
 import logogabi from './../img/logo.png';
 
 function Header(){
@@ -10,23 +10,23 @@ function Header(){
             </div>
             <nav>
                 <ul>
-                    <li>
-                        <Link texto='Início'/>
+                    <li className="inicio">
+                        <LinkNav url="/" texto='Início'/>
                     </li>
                     <li>
-                        <Link texto='Portfólio'/>
+                        <LinkNav url="/portfolio" texto='Portfólio'/>
                     </li>
                     <li>
-                        <Link texto='Avaliações'/>
+                        <LinkNav url="/avaliacoes" texto='Avaliações'/>
                     </li>
                     <li>
-                        <Link texto='Contatos'/>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                     <li>
-                        <Link texto='|'/>
+                        <LinkNav url="/" texto='|'/>
                     </li>
                     <li>
-                        <Link texto='Saber mais'/>
+                        <LinkNav url="/sabermais" texto='Saber mais'/>
                     </li>
                 </ul>
             </nav>
