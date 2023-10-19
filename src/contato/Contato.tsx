@@ -26,7 +26,7 @@ import './Contato.css'
       <button className="buttonfooter botaoenvio">Enviar mensagem</button>
 
        <div className="Cdigitado">
-          {textoC && <p>Dados informados: {textoC}</p>}
+          {textoC && <p>Nome:{textoC}</p>}
        </div>
     </div>
     </section>
