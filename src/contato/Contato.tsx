@@ -13,8 +13,6 @@ import './Contato.css'
 
       <h1 className="h1footer">Entre em contato comigo!</h1>
       
- 
-      
       <input className="inputfooter nome" type="text" placeholder="Nome:"/>
       <input className="inputfooter email" type="text" placeholder="Email para contato:"/>
       <input className="inputfooter email" type="tel" placeholder="Número para contato:"/>
