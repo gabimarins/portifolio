@@ -1,39 +1,59 @@
-import { useState } from 'react'
-
+import React, { useState } from 'react';
 import contato from '../componentes/img/contato.png';
-import './Contato.css'
+import './Contato.css';
 
- function Contato(){
-   const [textoC, setTextoC]=useState("")
+function Contato() {
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
+  const [numero, setNumero] = useState('');
+  const [mensagem, setMensagem] = useState('');
 
-    function TrataTextoC(e:React.ChangeEvent<HTMLInputElement>){
-        setTextoC(e.target.value)
-    }
-  
-  return(
+  return (
+    <section className="campopesquisafooter">
+      <img src={contato} alt="Imagem de Contato" />
+      <div className="cadastrofooter">
+        <h1 className="h1footer">Entre em contato comigo!</h1>
 
-  <section className="campopesquisafooter">
+        <input
+          className="inputfooter nome"
+          type="text"
+          placeholder="Nome:"
+          value={nome}
+          onChange={(e) => setNome(e.target.value)}
+        />
+        <input
+          className="inputfooter email"
+          type="text"
+          placeholder="Email para contato:"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          className="inputfooter email"
+          type="tel"
+          placeholder="Número para contato:"
+          value={numero}
+          onChange={(e) => setNumero(e.target.value)}
+        />
+        <input
+          className="inputfooter mensagem"
+          type="text"
+          placeholder="Deixe sua mensagem:"
+          value={mensagem}
+          onChange={(e) => setMensagem(e.target.value)}
+        />
+        <button className="buttonfooter botaoenvio">Enviar mensagem</button>
 
-    <img src={contato}></img>
-  <div className="cadastrofooter">
-
-      <h1 className="h1footer">Entre em contato comigo!</h1>
-      
-      <input className="inputfooter nome" type="text" placeholder="Nome:" onChange={TrataTextoC}/>
-      <input className="inputfooter email" type="text" placeholder="Email para contato:" onChange={TrataTextoC}/>
-      <input className="inputfooter email" type="tel" placeholder="Número para contato:" onChange={TrataTextoC}/>
-      <input className="inputfooter mensagem" type="text" placeholder="Deixe sua mensagem:" onChange={TrataTextoC}/>
-      <button className="buttonfooter botaoenvio">Enviar mensagem</button>
-
-       <div className="Cdigitado">
-          {textoC && <p>Dados informados: {textoC}</p>}
-       </div>
-    </div>
+        <div className="Cdigitado">
+          <p>Dados informados:</p>
+          <p>Nome: {nome}</p>
+          <p>Email: {email}</p>
+          <p>Número: {numero}</p>
+          <p>Mensagem: {mensagem}</p>
+        </div>
+      </div>
     </section>
-
-
-
-  )
+  );
 }
 
-export default Contato
+export default Contato;
