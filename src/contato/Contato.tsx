@@ -24,17 +24,12 @@ import './Contato.css'
 
       <h1 className="h1footer">Entre em contato comigo!</h1>
       
-      <input className="inputfooter nome" type="text" placeholder="Nome:" onChange={(e) => setNome(e.target.value)}/>
-      <input className="inputfooter email" type="text" placeholder="Email para contato:" onChange={(e) => setEmail(e.target.value)}/>
-      <input className="inputfooter email" type="tel" placeholder="Número para contato:" onChange={(e) => setNumero(e.target.value)}/>
-      <input className="inputfooter mensagem" type="text" placeholder="Deixe sua mensagem:"/>
+      <div className="campodigitado">{Nome && <p>Olá {Nome}!</p>}</div>
+      <div className="tituloinput">Nome:<input className="inputfooter nome" type="text" placeholder="Nome:" onChange={(e) => setNome(e.target.value)}/></div>
+      <div className="tituloinput">Email:<input className="inputfooter email" type="text" placeholder="Email para contato:" onChange={(e) => setEmail(e.target.value)}/></div>
+      <div className="tituloinput">Número:<input className="inputfooter email" type="tel" placeholder="Número para contato:" onChange={(e) => setNumero(e.target.value)}/></div>
+      <div className="tituloinput">Mensagem:<input className="inputfooter mensagem" type="text" placeholder="Deixe sua mensagem:"/></div>
       <button className="buttonfooter botaoenvio">Enviar mensagem</button>
-
-        <div className="Cdigitado">
-          {Nome && <p>Dados informados: <br/><br/> Nome:{Nome}</p>}
-          {Email && <p>Email:{Email}</p>}
-          {Numero && <p>Número: {Numero}</p>}
-       </div>
     </div>
     </section>
 
